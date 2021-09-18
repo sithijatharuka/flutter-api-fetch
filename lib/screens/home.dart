@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_api/models/post_model.dart';
-import 'package:flutter_api/screens/api/post_api.dart';
+import 'package:flutter_api/api/post_api.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
