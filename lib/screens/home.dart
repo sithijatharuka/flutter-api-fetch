@@ -24,6 +24,7 @@ class _HomePageState extends State<HomePage> {
           title: Text('Api get request'),
         ),
         body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             FutureBuilder<List<PostModel>>(
               future: getData(),
